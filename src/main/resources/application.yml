@@ -1,0 +1,14 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: test
+#
+
+dns:
+  server:
+    ip: "192.168.1.201"
+    port: 53
+    queryTimeout: PT5S
+#caching:
+#  minCacheExpiryValue: PT5S
+

@@ -1,0 +1,6 @@
+dns:
+  ip: ${DNS_IP:192.168.1.201}
+  port: ${DNS_PORT:53}
+  queryTimeout: 5s
+caching:
+  minCacheExpiryValue: 5s
